@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
 
 p {
     font-size: 18px; 
-    color: #e5e7eb;
+    color: #fefae0;
 }
 
 .content {
@@ -22,13 +22,18 @@ p {
 
 .header {
     display: flex;
-    background-color: #1f2937;
+    background-color: #d4a373;
     color: white;
 }
 
 .header-menu > ul, li, h1 {
     display: inline;
     margin: 0px 10px;
+}
+
+.header-menu > ul > li > a {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -52,7 +57,7 @@ ul {
 
 button {
     padding: 10px 25px;
-    background-color: #3882f6;
+    background-color: #606c38;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -60,6 +65,7 @@ button {
     border: none;
     text-decoration: none;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .header-section > img {
@@ -73,7 +79,7 @@ button {
 
 h3 {
     font-size: 36px;
-    color: #1f2937;
+    color: #d4a373;
     margin: 24px 0px;
     text-align: center;
 }
@@ -86,13 +92,13 @@ h3 {
     flex: 1;
 }
 
-.info > p { color: #1f2937; }
+.info > p { color: #d4a373; }
 
 .info > img {
     width: 170px;
     height: 170px;
     background-color: beige;
-    border: 5px solid #3882f6;
+    border: 5px solid #606c38;
     border-radius: 10px;
 }
 
@@ -102,7 +108,7 @@ h3 {
 
 .quote-text,
 .quote-author {
-    color: #1f2937;
+    color: #d4a373;
 }
 
 .section-two > .content {
@@ -126,7 +132,7 @@ h3 {
 }
 
 .call-to-action {
-    background-color: #3882f6;
+    background-color: #606c38;
     margin: auto;
     padding: 45px;
     width: 950px;
@@ -149,7 +155,7 @@ h3 {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #d4a373;
 }
 
 .footer > .content {
